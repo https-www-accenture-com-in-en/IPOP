@@ -1,0 +1,44 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Alice",
+      "email": "alice@example.com",
+      "isActive": true
+    },
+    {
+      "id": 2,
+      "name": "Bob",
+      "email": "bob@example.com",
+      "isActive": false
+    }
+  ],
+  "projects": [
+    {
+      "id": 101,
+      "title": "Project Phoenix",
+      "ownerId": 1,
+      "status": "active"
+    },
+    {
+      "id": 102,
+      "title": "Project Echo",
+      "ownerId": 2,
+      "status": "completed"
+    }
+  ],
+  "tasks": [
+    {
+      "id": 1001,
+      "projectId": 101,
+      "title": "Design homepage",
+      "completed": false
+    },
+    {
+      "id": 1002,
+      "projectId": 102,
+      "title": "Write documentation",
+      "completed": true
+    }
+  ]
+}
